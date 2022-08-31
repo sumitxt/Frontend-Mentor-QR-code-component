@@ -15,7 +15,7 @@ body {
     font-size: 15px;
 }
 
-.container {
+main {
     max-width: 350px;
     margin: 0 auto;
 
@@ -38,15 +38,16 @@ body {
     padding: 20px 10px;
 }
 
-.text h3 {
+.text h1{
     color: hsl(218, 44%, 22%);
+    font-size: large;
 }
 
 .text p {
     color: hsl(220, 15%, 55%)
 }
 
-.attribution {
+footer {
     position: absolute;
     bottom: 5px;
     font-size: 15px;
